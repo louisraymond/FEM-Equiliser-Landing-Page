@@ -1,0 +1,66 @@
+:root {
+    --orange: #FA7453;
+    --light-orange: #FFB964;
+    --dark-blue: #191826;
+    --light-blue: #66E2DC;
+    --white: #FCFAF9;
+}
+
+body {
+    background-color: #f2f2f2;
+        background-image: url('./assets/bg-main-desktop.png');
+        background-position-x: center;
+        background-position-y: 13%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10%
+    }
+
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--orange);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: flex-start;
+    margin-top: 40px;
+}
+.logo {
+    width: 146px;
+    height: 32px;
+    margin-bottom: 20px;   
+    height: auto;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.dark-square {
+    background-color: var(--dark-blue);
+    border-radius: 10px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
